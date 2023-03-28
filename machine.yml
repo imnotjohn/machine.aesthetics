@@ -1,0 +1,35 @@
+name: machine
+
+channels:
+- conda-forge
+- anaconda-fusion
+- jmcmurray
+- defaults
+
+dependencies:
+- beautifulsoup4
+- ipytest
+- IPython
+- ipywidgets
+- json
+- jupyter
+- jupyterlab
+- matplotlib
+- numpy
+- pandas
+- pillow
+- python>=3.8
+- pip
+- requests
+- scipy
+- scikit-learn
+- seaborn
+# Machine Aesthetics
+- statsmodels
+- pip:
+  - torch
+  - torchvision
+  - autoencoder
+  - classifier
+  - opencv-python
+  - gensim
