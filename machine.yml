@@ -22,13 +22,14 @@ dependencies:
 - pip
 - requests
 - scipy
-- scikit-learn
 - seaborn
 # Machine Aesthetics
 - statsmodels
 - pip:
   - torch
   - torchvision
+  - pytorch-msssim
+  - tensorboard
   - autoencoder
   - classifier
   - opencv-python
