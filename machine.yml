@@ -22,6 +22,7 @@ dependencies:
 - pip
 - requests
 - scipy
+- scikit-learn
 - seaborn
 # Machine Aesthetics
 - statsmodels
