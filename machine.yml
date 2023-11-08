@@ -26,9 +26,9 @@ dependencies:
 - seaborn
 # Machine Aesthetics
 - statsmodels
+- pytorch
+- torchvision
 - pip:
-  - torch
-  - torchvision
   - pytorch-msssim
   - tensorboard
   - autoencoder
