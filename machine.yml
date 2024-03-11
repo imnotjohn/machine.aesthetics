@@ -18,7 +18,7 @@ dependencies:
 - numpy
 - pandas
 - pillow
-- python>=3.8
+- python==3.10
 - pip
 - requests
 - scipy
@@ -29,6 +29,9 @@ dependencies:
 - pytorch
 - torchvision
 - pip:
+  - tensorflow
+  - tensorflow-macos
+  - tensorflow-metal
   - pytorch-msssim
   - tensorboard
   - autoencoder
